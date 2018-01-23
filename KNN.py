@@ -89,8 +89,8 @@ def accuracy(k, flag):
 
 # main
 x = []
-y_1 = [] # 性别精确度
-y_2 = [] #身份标识符精确度
+y_1 = []  # 性别精确度
+y_2 = []  # 身份标识符精确度
 # k是i
 for i in range(5):
     x.append(i)
