@@ -1,0 +1,7 @@
+ivectors.txt contains 2000 i-vectors extracted from 2000 spoken utterances spoken by 20 speakers (100 utterances per each speaker). I-vector represents the information in variable length spoken utterance in a compressed, fixed-size format. I-vectors of this dataset were originally 400 dimensional, but the dimensionality was further reduced to 7 using linear discriminant analysis (LDA).
+
+Description of columns:
+Column 1: Speaker identifier (1-20)
+Column 2: Speaker's gender (0 = female, 1 = male)
+Column 3: Utterance identifier (1-100)
+Columns 4-10: Features 1-7 (together they form a feature vector)

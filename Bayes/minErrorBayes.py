@@ -1,4 +1,4 @@
-import basicFunctions
+from Bayes import basicFunctions
 
 
 def test(testSet):

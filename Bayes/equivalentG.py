@@ -1,6 +1,6 @@
 import numpy
 
-import basicFunctions
+from Bayes import basicFunctions
 
 
 def getG(x, mean, covMatrix):
